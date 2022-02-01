@@ -1,8 +1,17 @@
+# client
 .DS_Store
 node_modules
-/build
-/.svelte-kit
+public
+.svelte-kit
 /package
 .env
 .env.*
 !.env.example
+
+# api
+target
+.env
+Rocket.toml
+public
+*.key
+*.zip
